@@ -115,7 +115,7 @@ __attribute__((weak)) int _write(int file, char *ptr, int len)
 
 After these steps navigate to Debug configuration and check `Serial Wire Viewer (SWV)` check box like on snapshot below
 
-![Debugger_01.png](https://github.com/nemanjadjekic/Embedded-C/blob/master/Images/Debugger_01.png)
+![Debugger.png](https://github.com/zelkhachin/STM32f446xx_drivers_2/blob/master/Debugger.png)
 &nbsp;
 
 Once you enter *Debug* mode, go to `Window -> Show View -> SWV -> Select SWV ITM Data Console`. On this way `ITM Data Console` will be shown in *Debug* session.
