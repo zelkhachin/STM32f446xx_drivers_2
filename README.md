@@ -8,7 +8,7 @@ Lab assignments from [Udemy](https://www.udemy.com/share/100F3uBkcacF1XR3o=/?xre
 
 For this assignments [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board was used, but you can use code and adjust it to your board.
 
-Src folder contains Tests, which covers every major impelmenetation (GPIO, I2C, SPI, USART, IRQ, ...)
+Src folder contains Tests, which covers every major impelmenetation (UART, TIMER, PWM, CAN, RTC, LOW POWER, ...)
 Inside Test folder, there are Arduino sketches which are used for communication testing.
 
 ## Setup Installation - Linux Mint 20.0  
