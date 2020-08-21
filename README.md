@@ -4,15 +4,15 @@
 Lab assignments from [Udemy](https://www.udemy.com/share/100F3uBkcacF1XR3o=/?xref=E0QfcF9RQH4HSWUuAAcqP1kSWSRM) course [MCU2](https://www.udemy.com/share/101XBACUYad15QRHo=/) by [FastBit Embedded Brain Academy](http://fastbitlab.com/). Contains source coude for all exercises done during course, tested and adjusted for [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board.
 
 ## Implementation 
-[STM32CubeMx](https://www.st.com/en/development-tools/stm32cubemx.html) software is used just to create a project files which includes STM32F4x HAL DRIVER files and Microcontroller specific startup file. All the pripheral Inits, IRQ inits and other logic implementations are coded from scratch using [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html#overview). [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) can be used as well. 
+[STM32CubeMx](https://www.st.com/en/development-tools/stm32cubemx.html) software is used just to create a project files which includes STM32F4x HAL DRIVER files and Microcontroller specific startup file. All the pripheral Inits, IRQ inits and other logic which covers every major impelmenetation (UART, TIMER, PWM, CAN, RTC, LOW POWER, ...) are coded from scratch using [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html#overview). [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) can be used as well. 
 
 
 ## Usage
 
 For this assignments [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board was used, but you can use code and adjust it to your board.
 
-Src folder contains Tests, which covers every major impelmenetation (UART, TIMER, PWM, CAN, RTC, LOW POWER, ...)
-Inside Test folder, there are Arduino sketches which are used for communication testing.
+Src folder contains Tests, 
+
 
 ## Setup Installation - Linux Mint 20.0  
 * ##### GCC Toolchain installation (v10.2.0)
