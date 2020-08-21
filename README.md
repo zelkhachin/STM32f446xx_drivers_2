@@ -56,7 +56,7 @@ Inside Test folder, there are Arduino sketches which are used for communication 
   * Setup `GitFiend` and connect it with your repository
 
 &nbsp;
-### *Setting up SWV ITM Data Console (For arm Cotex M3/M4/M7 processors or higher) 
+### *Setting up SWV ITM Data Console (For arm Cotex M3/M4/M7 processors or higher)* 
 
 Open *syscalls.c* file and paste following code bellow *Includes*
 
