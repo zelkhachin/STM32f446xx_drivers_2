@@ -56,7 +56,7 @@ Inside Test folder, there are Arduino sketches which are used for communication 
   * Setup `GitFiend` and connect it with your repository
 
 &nbsp;
-### *Setting up SWV ITM Data Console (For arm Cotex M3/M4/M7 processors or higher)* 
+### *Setting up SWV ITM Data Console (For arm Cortex M3/M4/M7 processors or higher)* 
 
 Open *syscalls.c* file and paste following code bellow *Includes*
 
@@ -126,6 +126,19 @@ In `SWV ITM Data Console Settings` in section `ITM Stimulus Ports` enable port 0
 &nbsp;
 
 ***Note: Be sure that Core Clock is properly set!***
+
+&nbsp;
+### *Setting OpenOCD debugger for Semihosting (For arm Cortex M0/M0+ processors)* 
+* ##### Set the linker arguments
+  * `specs=rdimon.specs -Ic -Irdimon` 
+* ##### Add semi-hosting run command
+  * `monitor arm semihosting enable` 
+* ##### Add the below function call to mains
+  *
+  ```c  
+  extern void initialise_monitor_handles(void)
+  initialise monitor handles (void)
+  ```
 
 &nbsp;
 ## Contributing 
