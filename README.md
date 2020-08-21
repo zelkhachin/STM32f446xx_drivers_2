@@ -128,7 +128,7 @@ In `SWV ITM Data Console Settings` in section `ITM Stimulus Ports` enable port 0
 * ##### Set the linker arguments:
   * `specs=rdimon.specs -Ic -Irdimon` 
 * ##### Add semi-hosting run command:
-  * `monitor arm semihosting enable`:
+  * `monitor arm semihosting enable`
 * ##### Add the below function call to mains
   *
   ```c  
