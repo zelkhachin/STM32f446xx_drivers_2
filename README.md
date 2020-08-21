@@ -22,6 +22,9 @@ Inside Test folder, there are Arduino sketches which are used for communication 
   * Open terminal and type following command to install GCC\
   `$ sudo apt-get install gcc`
   
+* ##### System Workbench IDE installation (v2.9.0)
+	* Refer to the the [official website](https://www.openstm32.org/Downloading%2Bthe%2BSystem%2BWorkbench%2Bfor%2BSTM32%2Binstaller#Linux)		
+
 * ##### STM32Cube IDE installation (v1.4.0)
   * [Download installation for Linux](https://www.st.com/en/development-tools/stm32cubeide.html) (Debian Linux Installer)
   * Navigate to downloads folder and run following command in terminal\
@@ -53,7 +56,7 @@ Inside Test folder, there are Arduino sketches which are used for communication 
   * Setup `GitFiend` and connect it with your repository
 
 &nbsp;
-### *Setting up SWV ITM Data Console*
+### *Setting up SWV ITM Data Console (For arm Cotex M3/M4/M7 processors or higher) 
 
 Open *syscalls.c* file and paste following code bellow *Includes*
 
