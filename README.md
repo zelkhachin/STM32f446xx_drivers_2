@@ -4,7 +4,7 @@
 Lab assignments from [Udemy](https://www.udemy.com/share/100F3uBkcacF1XR3o=/?xref=E0QfcF9RQH4HSWUuAAcqP1kSWSRM) course [MCU2](https://www.udemy.com/share/101XBACUYad15QRHo=/) by [FastBit Embedded Brain Academy](http://fastbitlab.com/). Contains source coude for all exercises done during course, tested and adjusted for [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board.
 
 ## Implemntation 
-ST STM32CubeMx software is used just to create a project files which includes STM32F4x HAL DRIVER files and Microcontroller specific startup file . But all the pripheral Inits, IRQ inits and other logic implementation are coded from scratch using [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html#overview). (STM32Cube IDE](https://www.st.com/en/development-tools/stm32cubeide.html) can be used as well. 
+ST STM32CubeMx software is used just to create a project files which includes STM32F4x HAL DRIVER files and Microcontroller specific startup file . But all the pripheral Inits, IRQ inits and other logic implementation are coded from scratch using [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html#overview). [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) can be used as well. 
 
 
 ## Usage
