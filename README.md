@@ -14,9 +14,6 @@ Lab assignments from [Udemy](https://www.udemy.com/share/100F3uBkcacF1XR3o=/?xre
 
 For this assignments [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board was used, but you can use code and adjust it to your board.
 
-Src folder contains Tests, 
-
-
 ## Setup Installation - Linux Mint 20.0  
 * ##### GCC Toolchain installation (v10.2.0)
   * `$ gcc -v     // check C compiler is installed or not` 
