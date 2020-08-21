@@ -5,8 +5,10 @@ Lab assignments from [Udemy](https://www.udemy.com/share/100F3uBkcacF1XR3o=/?xre
 
 ## Implementation 
 [STM32CubeMx](https://www.st.com/en/development-tools/stm32cubemx.html) software is used just to create a project files which includes STM32F4x HAL DRIVER files and Microcontroller specific startup file. All the pripheral Inits, IRQ inits and other logic which covers every major impelmenetation (UART, TIMER, PWM, CAN, RTC, LOW POWER, ...) are coded from scratch using [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html#overview). [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) can be used as well. 
-	* ##### Project Architecture :
-	
+
+* ##### Project Architecture :
+![Architecture.png](https://github.com/zelkhachin/STM32f446xx_drivers_2/blob/master/Architecture.png)
+&nbsp;	
 
 ## Usage
 
